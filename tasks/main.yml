@@ -17,9 +17,9 @@
   tags: ['config']
   notify: selenium_started
 
-- name: Install browser
-  apt: name={{item}}
-  when: sel_role != 'hub'
-  with_items:
-    - xvfb
-    - firefox
+#- name: Install browser
+#  apt: name={{item}}
+#  when: sel_role != 'hub'
+#  with_items:
+#   - xvfb
+#  - firefox
