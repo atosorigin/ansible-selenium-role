@@ -1,5 +1,5 @@
 ---
-server_version_major: 2.44
+server_version_major: 3.0.0-beta2
 server_version: "{{server_version_major}}.0"
 jar_file: selenium-server-standalone-{{server_version}}.jar
 download_url: "http://selenium-release.storage.googleapis.com/{{server_version_major}}/{{jar_file}}"
